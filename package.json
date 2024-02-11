@@ -41,7 +41,7 @@
   },
   "strapi": "3.0.0-beta.14",
   "engines": {
-    "node": "14.21.3",
+    "node": "16",
     "npm": "7.24.2"
   },
   "license": "MIT",
