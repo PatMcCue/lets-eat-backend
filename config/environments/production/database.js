@@ -10,9 +10,14 @@ module.exports = ({ env }) => ({
     connection: {
       connectionString: process.env.DATABASE_URL,
       schema: "public", // Not required
-      ssl: {
-        rejectUnauthorized: false,
+      
+      default:{
+        connector: "strapi-hook-bookshelf",
       },
+      options: {
+                 ssl: true,
+               }
+      }
     },
     debug: false,
   },
