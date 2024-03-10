@@ -6,28 +6,25 @@ console.log(process.env.DATABASE_URL);
 module.exports = ({ env }) => ({
   connection: {
     client: "postgres",
-
     connection: {
       connectionString: process.env.DATABASE_URL,
       schema: "public", // Not required
-      
-      default:{
+      default: {
         connector: "strapi-hook-bookshelf",
       },
       // options: {
       //            ssl: true,
       //          }
-      }
     },
-    debug: false,
   },
-  // postgres: {
-  //   connection: {
-  //     connectionString: process.env.DATABASE_URL,
-  //     ssl: false,
-  //   },
-  // },
 });
+
+// postgres: {
+//   connection: {
+//     connectionString: process.env.DATABASE_URL,
+//     ssl: false,
+//   },
+// },
 //   {
 //   defaultConnection: "default",
 //   connections: {
