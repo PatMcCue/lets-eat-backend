@@ -1,6 +1,6 @@
 const parse = require("pg-connection-string").parse;
 // const config = parse(process.env.DATABASE_URL || "");
-
+// // "npm": "7.24.2",
 module.exports = ({ env }) => ({
   defaultConnection: "default",
   connections: {

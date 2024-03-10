@@ -44,7 +44,7 @@
   },
   "engines": {
     "node": "17",
-    "npm": "7.24.2",
+   
     "yarn": "1.22.21"
   },
   "license": "MIT",
