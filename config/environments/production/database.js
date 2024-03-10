@@ -14,9 +14,9 @@ module.exports = ({ env }) => ({
       default:{
         connector: "strapi-hook-bookshelf",
       },
-      options: {
-                 ssl: true,
-               }
+      // options: {
+      //            ssl: true,
+      //          }
       }
     },
     debug: false,
