@@ -1,5 +1,5 @@
 {
-  "host": "localhost",
+  "host": "https://hidden-plains-66088-f5a6410d8330.herokuapp.com",
   "port": "${process.env.PORT || 1337}",
   "production": true,
   "proxy": {
