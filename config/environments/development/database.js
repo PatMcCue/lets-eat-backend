@@ -28,3 +28,19 @@ module.exports = ({ env }) => ({
     },
   },
 });
+
+// {
+//   "defaultConnection": "default",
+//   "connections": {
+//     "default": {
+//       "connector": "strapi-hook-bookshelf",
+//       "settings": {
+//         "client": "sqlite",
+//         "filename": ".tmp/data.db"
+//       },
+//       "options": {
+//         "useNullAsDefault": true
+//       }
+//     }
+//   }
+// }
