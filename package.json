@@ -42,7 +42,8 @@
     "name": "A Strapi developer + updates john R Williams jrw@mit.edu"
   },
   "engines": {
-    "node": "14.21.3"
+    "node": "14",
+    "npm": "7.24.2"
   },
   "license": "MIT",
   "customs": {
