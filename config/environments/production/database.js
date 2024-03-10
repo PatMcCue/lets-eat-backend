@@ -1,15 +1,27 @@
 const parse = require("pg-connection-string").parse;
-const config = parse(process.env.DATABASE_URL || "");
+// const config = parse(process.env.DATABASE_URL || "");
 
 console.log(process.env.DATABASE_URL);
 
 module.exports = ({ env }) => ({
-  postgres: {
+  connection: {
+    client: "postgres",
+
     connection: {
       connectionString: process.env.DATABASE_URL,
-      ssl: {},
+      schema: "public", // Not required
+      ssl: {
+        rejectUnauthorized: false,
+      },
     },
+    debug: false,
   },
+  // postgres: {
+  //   connection: {
+  //     connectionString: process.env.DATABASE_URL,
+  //     ssl: false,
+  //   },
+  // },
 });
 //   {
 //   defaultConnection: "default",
