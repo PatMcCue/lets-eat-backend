@@ -4,6 +4,7 @@ const parse = require("pg-connection-string").parse;
 module.exports = ({ env }) => ({
   defaultConnection: "default",
   connections: {
+    connectionString: process.env.DATABASE_URL,
     default: {
       connector: "strapi-hook-bookshelf",
       settings: {

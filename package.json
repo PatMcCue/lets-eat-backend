@@ -18,13 +18,13 @@
     "eslint-plugin-react": "^7.14.0"
   },
   "dependencies": {
+    "@strapi/admin": "^4.20.4",
     "knex": "^0.21.21",
     "lodash": "^4.17.5",
     "mysql": "^2.18.1",
-    "node-sass": "^9.0.0",
+    "node-sass": "^4.11.0",
     "sqlite3": "^5.1.6",
     "strapi": "3.0.0-beta.14",
-    "strapi-admin": "^3.0.0-beta.14",
     "strapi-bookshelf": "^3.0.0-alpha.12.7.1",
     "strapi-hook-bookshelf": "3.0.0-beta.14",
     "strapi-hook-knex": "^3.0.0-beta.14",
@@ -43,8 +43,9 @@
     "name": "A Strapi developer + updates john R Williams jrw@mit.edu"
   },
   "engines": {
-    "node": "14",
-    "npm": "7.24.2"
+    "node": "17",
+    "npm": "7.24.2",
+    "yarn": "1.22.21"
   },
   "license": "MIT",
   "customs": {
