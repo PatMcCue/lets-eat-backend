@@ -24,6 +24,7 @@
     "mysql": "^2.18.1",
     "node-sass": "^4.11.0",
     "sqlite3": "^5.1.6",
+    "@strapi/strapi": "4.20.4",
     "strapi": "3.0.0-beta.14",
     "strapi-bookshelf": "^3.0.0-alpha.12.7.1",
     "strapi-hook-bookshelf": "3.0.0-beta.14",
@@ -43,9 +44,8 @@
     "name": "A Strapi developer + updates john R Williams jrw@mit.edu"
   },
   "engines": {
-    "node": "17",
-   
-    "yarn": "1.22.21"
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
   },
   "license": "MIT",
   "customs": {
